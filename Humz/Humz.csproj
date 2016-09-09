@@ -32,7 +32,11 @@
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
     <EmbeddedResource Include="HumzPage.xaml" />
+<<<<<<< Updated upstream
     <EmbeddedResource Include="SearchListPage.xaml">
+=======
+    <EmbeddedResource Include="DetileSongPage.xaml">
+>>>>>>> Stashed changes
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -44,8 +48,13 @@
       <DependentUpon>HumzPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< Updated upstream
     <Compile Include="SearchListPage.xaml.cs">
       <DependentUpon>SearchListPage.xaml</DependentUpon>
+=======
+    <Compile Include="DetileSongPage.xaml.cs">
+      <DependentUpon>DetileSongPage.xaml</DependentUpon>
+>>>>>>> Stashed changes
     </Compile>
   </ItemGroup>
   <ItemGroup>
