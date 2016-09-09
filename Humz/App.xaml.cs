@@ -8,7 +8,7 @@ namespace Humz
 		{
 			InitializeComponent();
 
-			MainPage = new HumzPage();
+			MainPage = new NavigationPage(new HumzPage());
 		}
 
 		protected override void OnStart()

@@ -3,7 +3,8 @@
 	xmlns="http://xamarin.com/schemas/2014/forms"
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	xmlns:local="clr-namespace:Humz"
-	x:Class="Humz.HumzPage">
+	x:Class="Humz.HumzPage"
+		Title="ค้นหาเพลง">
 	<ContentPage.Padding>
 		<OnPlatform x:TypeArguments = "Thickness"
 				iOS =" 20,44,20,10"
@@ -11,6 +12,6 @@
 	</ContentPage.Padding>
 	<StackLayout>
 		<Entry x:Name="ent_keyword" Placeholder="กรุณาใส่เนื้อร้อง หรือชื่อนักร้อง หรือชื่อเพลง"/>
-		<Button x:Name="btn_search" Text="ค้นหา"/>
+		<Button x:Name="btn_search" Text="ค้นหา" Clicked="Handle_Clicked"/>
 	</StackLayout>
 </ContentPage>
