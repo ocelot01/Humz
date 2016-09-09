@@ -4,7 +4,7 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	xmlns:local="clr-namespace:Humz"
 	x:Class="Humz.HumzPage"
-		Title="ค้นหาเพลง">
+		Title="ค้นหา">
 	<ContentPage.Padding>
 		<OnPlatform x:TypeArguments = "Thickness"
 				iOS =" 20,44,20,10"
