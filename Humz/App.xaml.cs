@@ -1,4 +1,4 @@
-﻿using Xamarin.Forms;
+using Xamarin.Forms;
 
 namespace Humz
 {
@@ -8,11 +8,8 @@ namespace Humz
 		{
 			InitializeComponent();
 
-<<<<<<< Updated upstream
 			MainPage = new NavigationPage(new HumzPage());
-=======
-			MainPage = new DetileSongPage();
->>>>>>> Stashed changes
+
 		}
 
 		protected override void OnStart()
