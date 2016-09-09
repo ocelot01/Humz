@@ -10,8 +10,8 @@
 				Android = "10"/>
 	</ContentPage.Padding>
 	<StackLayout>
-		<Label x:Name="labelSong" Text="1. Song : Down with the Sickness"/>
-		<Label x:Name="labelSinger" Text="    Singer : Distrub"/>
-		<Button x:Name="button_p_listen" Text="ลองฟัง" />
+		<Label x:Name="labelSong" Text="ชื่อเพลง: " />
+		<Label x:Name="labelSinger" Text="นักร้อง: "/>
+		<Button x:Name="button_p_listen" Text="ลองฟัง" Clicked="Handle_Clicked"/>
 	</StackLayout>
 </ContentPage>
