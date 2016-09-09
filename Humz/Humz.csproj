@@ -50,6 +50,7 @@
     <Compile Include="DetileSongPage.xaml.cs">
       <DependentUpon>DetileSongPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SongModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
