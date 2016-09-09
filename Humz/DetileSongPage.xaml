@@ -14,6 +14,6 @@
 			<Label  x:Name ="labelSongName" Text="ชื่อเพลง.............."/>
 			<Label x:Name ="labelSingeg" Text="เนื้อร้อง.............."/>
 			<Button x:Name="button_Play" Text="Play" BackgroundColor="Silver" FontAttributes="Bold" />
-
+			<!-- HELLO Commit-->
 		</StackLayout>
 </ContentPage>
